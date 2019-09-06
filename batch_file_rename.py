@@ -11,7 +11,10 @@ __author__ = 'Craig Richards'
 __version__ = '1.0'
 
 import os
+
+# command line option parse package
 import argparse
+
 
 
 def batch_rename(work_dir, old_ext, new_ext):
